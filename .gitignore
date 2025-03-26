@@ -1,0 +1,36 @@
+# Ignore build directory
+build/
+
+# Ignore compiled binaries and executables
+*.out
+*.exe
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+
+# Ignore debugging and profiling files
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+*.prof
+*.profraw
+
+# Ignore temporary or editor files
+*.swp
+*.swo
+*.tmp
+*.bak
+*.log
+
+
+# Ignore gdb debug files
+.gdb_history
+*.core
+
+# Ignore input/output test files
+*.out
+
